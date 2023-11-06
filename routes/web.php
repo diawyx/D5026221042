@@ -49,4 +49,23 @@ Route::get('/validasi1', function () {
     return view('validasi1');
 });
 
+Route::get('/hello', function () {
+    return view('hello');
+});
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
+Route::get('/link', function () {
+    return view('link');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/style', function () {
+    return view('style');
+});
 
