@@ -1,0 +1,83 @@
+.dia{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .dia a{
+    display: block;
+    margin: 15px;
+      padding: 15px 15px;
+      background-color: #fff;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+      width: 500px;
+      height: 20px;
+      border-radius: 15px;
+      position: relative;
+  }
+
+
+  .dia a:hover{
+    background-color: #f0efef;
+    transform: scale(1.1);
+  }
+
+  .dia logo{
+    float: center;
+  }
+
+  body{
+    font-family: Arial, sans-serif;
+    background-color: #EBEEF1;
+    margin: 0;
+    padding: 0;
+  }
+  .dia company{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+   .dia subheader{
+    font-size: large;
+    color: rgb(111, 111, 111);
+    text-align: center;
+    margin: 20px;
+  }
+
+  .header{
+    width: 95%;
+    max-width: 788px;
+    padding: 12px;
+    margin-top: 15px;
+  }
+  header{
+    width: 95%;
+    max-width: 1600px;
+    padding: 12px;
+    margin-top: 15px;
+  }
+  .share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    justify-content: center;
+  }
+
+  .tilesharebutton{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    justify-content: center;
+  }
+
+  .share-button:hover{
+    background-color: #f0efef;
+    transform: scale(1.1);
+  }
