@@ -51,6 +51,8 @@
 		@endforeach
 	</table>
 
+    {{ $mouse -> links()}}
+
 
     @endsection
 

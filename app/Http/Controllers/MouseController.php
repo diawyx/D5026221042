@@ -11,7 +11,8 @@ class MouseController extends Controller
     public function index3()
     {
     	// mengambil data dari table pegawai
-    	$mouse = DB::table('mouse')->get();
+    	//$mouse = DB::table('mouse')->get();
+        $mouse = DB::table('mouse')->paginate(10);
 
     	// mengirim data pegawai ke view index
     	return view('index3',['mouse' => $mouse]);
