@@ -94,6 +94,14 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index2');
 Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiKuliahController@tambah2');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
+Route::get('/mouse','App\Http\Controllers\MouseController@index3');
+Route::get('/mouse/tambah3','App\Http\Controllers\MouseController@tambah3');
+Route::post('/mouse/store','App\Http\Controllers\MouseController@store');
+Route::get('/mouse/edit3/{kodemouse}','App\Http\Controllers\MouseController@edit3');
+Route::post('/mouse/update','App\Http\Controllers\MouseController@update');
+Route::get('/mouse/hapus/{kodemouse}','App\Http\Controllers\MouseController@hapus');
+Route::get('/mouse/view3/{kodemouse}','App\Http\Controllers\MouseController@view3');
+Route::get('/mouse/cari','App\Http\Controllers\MouseController@cari');
 
 
 
