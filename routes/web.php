@@ -103,6 +103,8 @@ Route::get('/mouse/hapus/{kodemouse}','App\Http\Controllers\MouseController@hapu
 Route::get('/mouse/view3/{kodemouse}','App\Http\Controllers\MouseController@view3');
 Route::get('/mouse/cari','App\Http\Controllers\MouseController@cari');
 
+Route::get('/kategori','App\Http\Controllers\KategoriController@index4');
+Route::post('/hasilcombo','App\Http\Controllers\KategoriController@hasilcombo');
 
 
 
